@@ -200,7 +200,7 @@
                                 
                                 <p>
                                     <label for="first-name">First Name</label>
-                                    <input type="text" name="first-name" id="first-name" placeholder="George">
+                                    <input type="text" name="first-name" id="first-name" placeholder="George" autofocus>
                                 </p>
 
                                 <p>
@@ -208,6 +208,76 @@
                                     <input type="text" name="last-name" id="last-name" placeholder="Devis">
                                 </p>
 
+                                <p>Please select your gender:</p>
+                                <div>
+                                    <label for="male">Male</label>
+                                    <input type="radio" name="gender" id="male" value="male">
+
+                                    <label for="female">Female</label>
+                                    <input type="radio" name="gender" id="female" value="female">
+
+                                    <label for="other">Other</label>
+                                    <input type="radio" name="gender" id="other" value="other">
+                                </div>
+
+                                <p>Preferred contact method:</p>
+                                <div>
+                                    <label for="email">Email</label>
+                                    <input type="radio" name="contactType" id="email" value="email">
+
+                                    <label for="phone">Phone</label>
+                                    <input type="radio" name="contactType" id="phone" value="phone">
+                                </div>
+
+                                <p>
+                                    <label for="email-address">Email</label>
+                                    <input type="email" id="email-address" name="email-address" placeholder="example@example.com">
+                                </p>
+
+                                <p>
+                                    <label for="telephone">Phone</label>
+                                    <input type="tel" id="telephone" name="telephone" placeholder="+359 123 123 123">
+                                </p>
+
+                                <p>
+                                    <label for="town">Chose a town:</label>
+                                    <select name="town" id="town">
+                                        <option value="">--Please select--</option>
+                                        <option value="sofia">Sofia</option>
+                                        <option value="paris">Paris</option>
+                                        <option value="new-york">New York</option>
+                                        <option value="london">London</option>
+                                    </select>
+                                </p>
+
+                                <p>
+                                    <label for="age">Age</label>
+                                    <input type="number" name="age" id="age" min="18">
+                                </p>
+
+                                <p>
+                                    <label for="p-language-choice">Chose a Programming Language</label>
+                                    <input list="p-language" id="p-language-choice" name="p-language">
+
+                                    <datalist id="p-language">
+                                        <option value="JavaScript">
+                                        <option value="Java">
+                                        <option value="C#">
+                                        <option value="Python">
+                                    </datalist>
+                                </p>
+
+                                <p>
+                                    <label for="story" class="story">Tell us more about you:</label>
+                                    <textarea name="story" id="story" cols="33" rows="5"></textarea>
+                                </p>
+
+                                <div>
+                                    <input type="checkbox" name="terms" id="">
+                                    <label for="terms">I Agree the Terms and Conditions</label>
+                                </div>
+
+                                <button type="submit">Send</button>
 
                               </fieldset>
                         </form>
