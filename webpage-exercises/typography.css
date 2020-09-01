@@ -80,3 +80,7 @@ blockquote p:last-child {
 blockquote p.author {
     text-align: right;
 }
+
+i {
+    margin-right: 0.5rem;
+}
