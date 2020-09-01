@@ -14,28 +14,39 @@ html {
     html {font-size: 18px}
 }
 
-body, form, table, input, textarea, option, select, ul {
+body, form, table, input, textarea, option, select, ul, ol, button {
     font: inherit;
 }
 
-p {
-    margin: 0;
-    padding: 0 0 1.5em 0;
+p, ul, ol {
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+}
+
+ul, ol{
+    padding-left: 2.5em;
+}
+
+input, label, select, textarea, button {
+    margin-left: 1rem;
+}
+
+legend {
+    margin-left: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto Slab";
-    margin: 0;
+    padding-top: 1.5em;
     padding-bottom: 0.5em;
-    /* border: 1px solid #000; */
 }
 
-h1 { font-size: 2.8em; }
-h2 { font-size: 2.2em; }
-h3 { font-size: 1.8em; }
-h4 { font-size: 1.6em; }
-h5 { font-size: 1.4em; }
-h6 { font-size: 1.2em; }
+h1 { font-size: 2.6em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; }
 
 p + h1,
 p + h2,
@@ -46,3 +57,26 @@ p + h6 {
     padding-top: 0.5em;
 }
 
+hr {
+    border: 0;
+    border-top: 1px solid #8c8c8c;
+    border-bottom: 1px solid #fff;
+}
+
+blockquote {
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    border-left: 2px solid white;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+blockquote p.author {
+    text-align: right;
+}
