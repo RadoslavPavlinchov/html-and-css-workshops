@@ -73,3 +73,37 @@ textarea {
     padding-left: 1.5em;
     padding-bottom: 0.5em;
 }
+
+.button {
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    cursor: pointer;
+    outline: none;
+    padding: .5rem;
+}
+
+.buttons-first-row .button {
+    background: #000;
+    color: #fff;
+}
+
+.buttons-second-row .button,
+.buttons-third-row .button {
+    background: rgb(51, 51, 51);
+    color: #fff;
+}
+
+.buttons-first-row .hover:hover {
+    color: rgb(0, 102, 0);
+    border: 2px solid rgb(0, 102, 0);
+}
+
+.buttons-second-row .hover:hover,
+.buttons-third-row .hover:hover {
+    color: #fff;
+    background: rgb(0, 102, 0);
+}
+
+/* .button i {
+    margin: 5px;
+} */
