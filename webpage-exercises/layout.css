@@ -26,20 +26,22 @@ table th {
     padding: 0.4em 0.8em;
 }
 
-table td {
-    background: #eee;
-}
-
 table thead th,
 table tfoot td {
     font-weight: bold;
-    text-align: left;
-    background: #000;
-    color: #fff;
+    text-align: center;
+    background: #ccc;
+    color: #000;
 }
 
-table tbody tr:nth-child(even) td {
-    background: #ccc;
+table tbody tr {
+    color: #fff;
+    background: #000;
+}
+
+table tbody tr:hover {
+    color: #000;
+    background: #fff;
 }
 
 form div {
