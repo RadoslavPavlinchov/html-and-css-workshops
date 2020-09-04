@@ -1,11 +1,18 @@
-body {
-    background: black;
-    color: white;
+.site-header,
+.site-footer {
+    border: 0 solid #fff;
 }
 
-.site {
-    max-width: 60em;
-    margin: 0 auto;
+.site-header {
+    border-bottom-width: 2px;
+}
+
+.site-header h1 {
+    padding-top: .5em;
+}
+
+.site-footer {
+    border-top-width: 2px;
 }
 
 label {
@@ -104,6 +111,71 @@ textarea {
     background: rgb(0, 102, 0);
 }
 
-/* .button i {
-    margin: 5px;
-} */
+.box-model {
+    width: 200px;
+    margin: 0 auto;
+    padding: 2em;
+    border: 5px solid #fff;
+    border-radius: 2rem;
+    background: rgb(64, 224, 208);
+    color: #000;
+}
+
+.box-model-second {
+    width: 250px;
+    height: 250px;
+    margin: 3em auto;
+    border: 2px dotted #fff;
+}
+
+.box-model-second h1 {
+    padding-top: .5em;
+    text-align: center;
+}
+
+.box-model-second p {
+    width: 100%;
+    border: 2px solid #090;
+    text-align: center;
+    padding: 20px;
+}
+
+.box-model-article {
+    background: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    padding: 1em;
+}
+
+.box-model-article img {
+    width: 100%;
+}
+
+.exercise-site-branding h3{
+    display: inline-block;
+    width: 30%;
+}
+
+.exercise-site-nav {
+    display: inline-block;
+    width: 69%;
+    padding-top: 2.5em;
+    vertical-align: top;
+}
+
+.exercise-site-nav ul {
+    padding: 0;
+}
+
+.exercise-site-nav ul li {
+    display: inline-block;
+}
+
+.exercise-site-nav a {
+    display: block;
+    padding: 0.5em 1em;
+    background: #eee;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3em;
+    border: 1px solid black;
+}
