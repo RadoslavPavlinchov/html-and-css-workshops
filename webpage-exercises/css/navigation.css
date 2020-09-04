@@ -1,0 +1,22 @@
+.nav {
+    text-align: right;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav a {
+    display: block;
+    padding: 0.5em 1em;
+    background: #eee;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3em;
+    border: 1px solid black;
+}
+
+.nav a:hover {
+    background: #090;
+    color: #fff;
+}
